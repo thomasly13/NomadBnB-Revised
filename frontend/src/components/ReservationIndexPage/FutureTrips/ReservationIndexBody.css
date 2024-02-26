@@ -1,0 +1,234 @@
+.reservation-image {
+    width: 72px;
+    height: 72px;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.reservation-index-body-container {
+    width: 1600px;
+    padding: 0px 80px;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.reservation-current-trips-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.current-reservation-container {
+    display: flex;
+    width: 33.333333333%;
+    box-sizing: border-box;
+    padding: 12px 0px;
+    cursor: pointer;
+}
+
+.current-reservation-container-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.reservation-current-trips {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+.reservation-host, .reservation-date {
+    margin-top: 2px;
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #717171;
+
+}
+.reservation-location {
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+}
+
+.reservation-current-title {
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 600;
+    color: black;
+    margin-top: 36px;
+    margin-bottom: 24px;
+}
+
+.reservation-edit-image-container {
+    width: 537px;
+    height: 400px;
+    overflow: -moz-hidden-unscrollable;
+}
+
+.reservation-edit-image {
+    width: 100%;
+    height: 420px;
+    margin-bottom: 200px;
+}
+
+.reservation-edit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+    overflow-y: scroll;
+    margin-left: 20px;
+    box-sizing: border-box;
+    width: 30%;
+    height: 90vh;
+}
+
+.reservation-edit-date-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.reservation-edit-check-in-date-container, .reservation-edit-check-out-date-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.reservation-edit-check-out-date-container {
+    border-left: #E7E7E7 1px solid;
+}
+
+.reservation-edit-button {
+    width: 90%;
+    margin-bottom: 24px;
+    color: white;
+    background-image: radial-gradient( circle at center,#FF385C 0%,#e61e4d 27.5%,#e31c5f 40%,#d70466 57.5%,#bd1e59 75%,#bd1e59 100% );
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: none;
+    background: linear-gradient(to right,#E61E4D 0%,#E31C5F 50%,#D70466 100%);
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.background {
+    background-color: rgba(0, 0, 0, 0.137) !important;
+}
+
+.reservation-edit-check-date-words {
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: black;
+}
+
+.reservation-edit-check-date-words-2 {
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: black;  
+}
+
+.reservation-edit-check-date-words-3 {
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #717171;  
+}
+
+
+.guest-drop-down-adults-container-1 {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.adults-text-1 {
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color: black;
+}
+
+.guest-drop-down-adults-container-1 * {
+    margin: 10px;
+}
+
+.guest-drop-down-adults-container-1 span {
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color: black;
+}
+
+
+.reservation-current-trips-1 {
+    width: 90%;
+    height: 230px;
+    border: #DDDDDD 1px solid;
+    border-radius: 12px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.start-searching-button {
+    width: 162px;
+    height: 48px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    background-image: radial-gradient( circle at center,#FF385C 0%,#e61e4d 27.5%,#e31c5f 40%,#d70466 57.5%,#bd1e59 75%,#bd1e59 100% );
+    background: linear-gradient(to right,#E61E4D 0%,#E31C5F 50%,#D70466 100%);
+    cursor: pointer;
+}
+
+.state-searching-title {
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.state-searching-description {
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    max-width: 300px;
+    color: rgb(113,113,113);
+    padding-bottom: 25px;
+}

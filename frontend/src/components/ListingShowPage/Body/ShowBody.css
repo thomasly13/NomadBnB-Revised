@@ -1,0 +1,581 @@
+.show-body {
+    width: 1280px;
+    padding: 0px 80px;
+    box-sizing: border-box;
+    margin: auto;
+
+}
+
+.show-header {
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+.listing-name {
+    font-family:'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+.listing-location {
+    margin-top: 8px;
+    font-family:'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: underline;
+    color: rgb(34, 34, 34);
+    line-height: 20px;
+}
+
+.show-image-container {
+    display: flex;
+    flex-direction: row;
+    line-height: 0;
+    margin-top: 24px;
+    overflow: hidden;
+    border-radius: 12px;
+
+}
+
+.show-left-image {
+    width: 560px;
+    height: 487.39px;
+}
+
+.show-image {
+    width: 272px;
+    height: 239.69px;
+
+}
+
+.smaller-image-container {
+    display: flex;
+    
+}
+
+.smaller-image-column-1 {
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.smaller-image-column-2 {
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.show-image-2{
+    width: 272px;
+    height: 239.69px;
+    padding-top: 8px;
+}
+
+.show-listing-information {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+
+.show-listing-owner {
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    color: rgb(34, 34, 34);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+
+.show-listing-specific-information {
+    display: flex;
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+
+.show-body-information {
+    display: flex;
+    flex-direction: row;
+}
+
+.show-body-information-tab {
+    width: 58.333333333333336%;
+    display: flex;
+    flex-direction: column;
+}
+
+.information-line {
+    border: 1px solid rgb(221, 221, 221);
+    width: 100%;
+}
+
+.show-body-description-container {
+    padding-top: 32px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.show-body-description {
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.show-listing-highlight-information {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 24px;
+} 
+
+.show-listing-superhost {
+    display: flex;
+    flex-direction: row;
+}
+
+.show-listing-location {
+    display: flex;
+    flex-direction: row;
+}
+
+.show-listing-experience {
+    display: flex;
+    flex-direction: row;
+}
+
+.highlight-information-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+.superlocationIcon {
+    margin-right: 6px;
+}
+
+.highlight-title {
+    color: rgb(34, 34, 34);
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+
+.highlight-information {
+    color: rgb(113, 113, 113);
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+/* Reservation css Page */
+/* ---------------------*/
+/* ---------------------*/
+
+.show-body-reservation {
+    position: relative;
+    width: 33.33333333333333%;
+    margin-left: 8.333333333333332%;
+}
+
+.reservation-container {
+    position: sticky;
+    top: 80px;
+    z-index: 1;
+    width: 100%;
+    padding-right: 1px;
+    padding-bottom: 48px;
+}
+
+.reservation-div {
+    box-sizing: border-box;
+    margin-top: 48px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}   
+.reservation-title {
+    margin-bottom: 24px;
+}
+
+.reservation-title-price {
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+    font-size: 22px;
+    list-style: 26px;
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+}
+
+.reservation-title-night {
+    font-weight: 400;
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+    list-style: 22px;
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+}
+
+
+
+.reservation-form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reservation-form-container form {
+    width: 100%;
+}
+
+.reservation-form-input {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 1px solid rgb(185,185,185);
+}
+.reservation-form-date-container{
+    width: 100% ;
+    display: flex ;
+    height: 56px ;
+    background-color: transparent ;
+    border: none ;
+    position: relative ;
+}
+
+.reservation-form-guests-container {
+    width: 100%;
+    height: 56px;
+    border-top: 1px solid rgb(185,185,185);
+    position: relative;
+}
+
+.reservation-form-guests-container-active {
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.check-in-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+
+.check-out-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid rgb(185,185,185);
+    position: relative;
+    height: 56px;
+    
+}
+.check-out-form input{
+    width: 100%;
+}
+
+.check-in-text, .check-out-text, .guests-text{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    color: black;
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.check-in-input, .check-out-input{
+    position: absolute;
+    padding: 26px 12px 10px;
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 200;
+    color: rgb(113, 113, 113);
+}
+
+.guests-input  {
+    width: 100%;
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: black;
+    padding: 26px 36px 10px 12px;
+}
+
+.reservation-submit-button {
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    color: white;
+    background-image: radial-gradient( circle at center,#FF385C 0%,#e61e4d 27.5%,#e31c5f 40%,#d70466 57.5%,#bd1e59 75%,#bd1e59 100% );
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: none;
+    background: linear-gradient(to right,#E61E4D 0%,#E31C5F 50%,#D70466 100%);
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+
+}
+
+/* calendar */
+/* -------- */
+/* -------- */
+/* -------- */
+/* -------- */
+
+.reservation-check-in-check-out-calendar-container {
+    height: 460px;
+    width: 661px;
+    z-index: 1;
+    border-radius: 16px;
+    background-color: white;
+    top: -24px;
+    right: -32px;
+    position: absolute;
+    padding: 24px 32px 12px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 20px;;
+    box-sizing: border-box;
+}
+
+.reservation-check-in-check-out-calendar-container .rdrCalendarWrapper{
+    width: 100%;
+}
+
+.rdrMonthName {
+    text-align: center !important;
+    color: black !important;
+    font-size: 16px;
+}
+
+.rdrDateDisplay {
+    width: 100%;
+    margin: 0px !important;
+}
+
+.rdrDateDisplayWrapper {
+    width: 321.33px ;
+    display: flex ;
+    height: 56px ;
+    background-color: transparent ;
+    border: none ;
+    position: relative ;
+    float: right;
+    left: 275.66px;
+    border: 1px solid rgb(185,185,185);
+    border-radius: 8px;
+}
+
+.rdrDateDisplayItem + .rdrDateDisplayItem {
+    margin-left: 0px !important;
+}
+
+.rdrDateDisplayItem input {
+    position: absolute !important;
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+    font-weight: 200 !important;
+    color: rgb(113, 113, 113) !important;
+    top: 15px;
+    left: -30px;
+}
+
+
+/* guestdrop down */
+/* -------- */
+/* -------- */
+/* -------- */
+/* -------- */
+
+.guest-drop-down {
+    width: 100%;
+    padding: 16px;
+    background-color: white;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 6px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 0px 0px 1;
+    border-radius: 4px;
+}
+
+.guest-drop-down-adults-container {
+    margin-top: 8px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.guest-number-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 108px;
+}
+
+.guest-reservation-button-counters {
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.guest-reservation-button-counters i {
+    margin: auto;
+}
+
+.adults-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.adults-text {
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 4px;
+    font-weight: 600;
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    color: black;
+}
+
+.adults-age-text {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    color: black;
+}
+
+.guest-drop-down-children-container {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.guest-drop-down-infants-container {
+    margin-bottom: 24px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.disclaimer {
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    color: rgb(34, 34, 34);
+    margin-bottom: 24px;
+}
+
+.close-button {
+    align-self: self-end;
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    color: black;
+}
+
+.reviews-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.review-title-container {
+    display: flex;
+    width: 100%;
+    padding-right: 20px;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    color: black;
+    margin-top: 50px;
+}
+
+.review-body {
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cool-container {
+    display: flex;
+    align-items: center;
+}
+
+.review-title-container-1 {
+    display: flex;
+    align-items: center;
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.review-title-container-1 * {
+    margin-right: 5px;
+}
+
+.cool-map {
+    height: 60vh;
+    width: 100%;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.12);;
+    margin-bottom: 40px;
+}
+
+.cool-errors {
+    display: flex;
+    align-items: center;
+    padding-left: 30%;
+}

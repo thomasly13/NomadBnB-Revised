@@ -1,0 +1,12 @@
+.cool-footer{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  background-color: #ff385c;
+}
+
+.cool-company-footer {
+  display: flex;
+}

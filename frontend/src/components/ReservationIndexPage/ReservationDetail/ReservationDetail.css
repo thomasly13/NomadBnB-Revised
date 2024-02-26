@@ -1,0 +1,115 @@
+.reservation-detail-text {
+    width: 620px;
+    padding: 12px 12px 0;
+    top: 1;
+    z-index: 9999;
+    box-sizing: border-box;
+}
+
+.reservation-detail-component {
+    overflow-y: hidden;
+    height: 100vh;
+}
+
+.reservation-detail-container {
+    display: flex;
+    background-color: #EBEBEB;
+}
+
+
+
+.reservation-about-home-details-container, .reservation-information-payment-information-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    background-color: white;
+    text-overflow: ellipsis;
+}
+
+.payment-big-title {
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+    color: rgb(5, 5, 5);
+    margin-bottom: 10px;
+}
+
+.reservation-about-home-address {
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: black;  
+    padding-bottom: 15px;
+}
+
+.reservation-about-home-description {
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: black;  
+    padding-bottom: 15px;
+}
+
+.reservation-information-payment-total-cost {
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    color: black;  
+    padding-bottom: 5px;
+}
+
+.reservation-information-payment-total-cost-money {
+    font-family: 'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: black;  
+    padding-bottom: 5px;
+}
+.reservation-edit-cool-buttons{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.reservation-edit-guests-container {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    margin-bottom: -20px;
+}
+
+.super-cool-edit-container {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    margin-bottom: -20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.super-duper-cool-text-area {
+    resize: none;
+    margin-bottom: 25px;
+}
+
+.super-duper-cool-text-area:focus {
+    outline: 1px solid black;
+}

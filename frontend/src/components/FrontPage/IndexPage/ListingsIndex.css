@@ -1,0 +1,130 @@
+.listings-container{
+    width: 100%;
+    margin: 0px 80px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.index-left-image {
+    width: 270px;
+    height: 250px;
+    overflow: hidden;
+    margin: 40px 24px 10px 0px;
+    border-radius: 12px;
+}
+
+
+.listing-property {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.listing-property span {
+    line-height: 19px;
+}
+
+.listing-property-location {
+    font-family:'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #222222;
+
+    
+}
+
+.listing-property-beds {
+    color: #717171;
+    font-family:'Circular', '-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue',sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+.listing-property-nights {
+    color: black;
+    margin-top: 6px;
+    text-decoration: inherit;
+}
+
+.left-arrow-button {
+    position: absolute;
+    background: rgba(255, 254, 254, 0.664);
+    color: rgba(0, 0, 0, 0.603);
+    border-radius: 50%;
+    line-height: 0px;
+    cursor: pointer;
+    top: 160px;
+    left: 5px;
+    user-select: none;
+}
+
+.left-arrow-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.right-arrow-button {
+    position: absolute;
+    background: rgba(255, 254, 254, 0.664);
+    color: rgba(0, 0, 0, 0.61);
+    border-radius: 50%;
+    line-height: 0px;
+    cursor: pointer;
+    top: 160px;
+    right: 30px;
+    user-select: none;
+}
+
+.right-arrow-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.image-container {
+    position: relative;
+}
+
+#cooler-map {
+    height: 60vh;
+    width: 50vw;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.12);;
+    left:25%;
+    position: fixed;
+    transition: 1s;
+    border: black 1px solid;
+}
+
+.cooler-button {
+    position: fixed;
+    width: 132px;
+    height: 50px;
+    background-color: black;
+    bottom: 3vh;
+    left: 46.9%;
+    border-radius: 24px;
+    z-index: 2;
+}
+
+.on-map {
+    top: 21vh;
+    transition: 1s;
+}
+
+.off-map {
+    top: -1000px;
+    transition: 1s;
+}
+
+.cooler-button-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.cooler-button-text {
+    color: white;
+}
+

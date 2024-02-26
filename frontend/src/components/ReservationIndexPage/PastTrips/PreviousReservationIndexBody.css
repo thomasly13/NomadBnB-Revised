@@ -1,0 +1,89 @@
+.reservation-image {
+    width: 72px;
+    height: 72px;
+}
+
+.reservation-index-body-container {
+    width: 1600px;
+    padding: 0px 80px;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.reservation-current-trips-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.current-reservation-container {
+    display: flex;
+}
+
+.current-reservation-container-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.reservation-current-trips {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.review-create-rating-container {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.rate-your-stay {
+    display: flex;
+    flex-direction: row;
+    font-family:"Circular", "-apple-system", "BlinkMacSystemFont", "Roboto", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.review-create-container form {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.review-create-container {
+    max-height: 700px;
+    overflow-y: scroll;
+}
+
+.houseIcon {
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: black;
+    align-items: center;
+    align-self: center;
+}
+
+.houseIcon:hover {
+    width: 55px;
+    height: 55px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: black;
+    align-items: center;
+    font-size: 23px;
+    color: white;
+    align-self: center;
+    animation-duration: 4s;
+
+}

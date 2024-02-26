@@ -1,0 +1,25 @@
+{
+  "name": "nomadbnb",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasly13/NomadBnB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasly13/NomadBnB/issues"
+  },
+  "engines": {
+    "node": "16.19.1"
+  },
+  "homepage": "https://github.com/thomasly13/NomadBnB#readme"
+}
